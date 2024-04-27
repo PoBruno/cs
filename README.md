@@ -1,21 +1,21 @@
-# cs2-config
+# Counter-Strike 2
 ## My hardware
 - CPU: Intel(R) Core(TM) i5-7600
 - Motherboard: ASUS PRIME Z270-K
 - Memory: Corsair Vengeance 3000MHz CL30 DDR5 4x8GB
 - GPU: NVIDIA GeForce GTX 1660 SUPER
 
-## Reset steam cloud configuration
-Before completing your configuration, reset steam cloud to remove any residual configuration from CS:GO/CS2 being automatically applied and reset everything to complete default.
+## Game Configs
+- Mouse DPI: 800
+- Game Sensy: 1.65
+- Mouse Polling Rate: 1000hz
+- Monitor: PHILIPS Generic 75Hz 4:3
 
-1. Disable steam cloud for CS2
-    1. Right click CS2 in your library and click properties
-    1. Under "Steam Cloud", deselect "Keep game saves in the Steam Cloud for Counter-Strike 2"
-1. Go to your user data folder for CS2 at `C:\Program Files (x86)\Steam\userdata\<account>\730` and delete the contents
-1. Launch and then close CS2
-1. Re-enable steam cloud for CS2
-1. Go to CS2 in your steam library and click the "File conflict" button under "cloud status"
-1. Select "Local Save" and then click "Continue"
+# Graficos
+## Distancia da sombra
+Para fazer com que as sombras sejam renderizadas à distância quando definidas como baixas, baixe [update_cs2_video.ps1](/update_cs2_video.ps1)
+, clique com o botão direito e execute com o PowerShell. Isso alterará automaticamente os parâmetros cs2_video.txtpara fazer com que as sombras sejam renderizadas corretamente em baixa qualidade.
+
 
 ## Launch options
 `-w 1152 -h 864 -novid -fullscreen -console -threads 4 -high +exec autoexec.cfg `
