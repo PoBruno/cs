@@ -11,6 +11,14 @@
 - Mouse Polling Rate: 1000hz
 - Monitor: PHILIPS Generic 75Hz 4:3
 
+```
+cd 'C:/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/game/csgo/cfg'
+git clone https://github.com/PoBruno/cs tmp
+mv tmp/.git .
+rm -r tmp
+git checkout .
+```
+
 # Graficos
 ## Distancia da sombra
 Para fazer com que as sombras sejam renderizadas à distância quando definidas como baixas, baixe [update_cs2_video.ps1](/update_cs2_video.ps1)
