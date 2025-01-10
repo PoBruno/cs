@@ -11,13 +11,14 @@
 - Mouse Polling Rate: 1000hz
 - Monitor: PHILIPS Generic 75Hz 4:3
 
+## Download **[autoexec.cfg](/autoexec.cfg)**
 ```
-cd 'C:/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/game/csgo/cfg'
-git clone https://github.com/PoBruno/cs tmp
-mv tmp/.git .
-rm -r tmp
-git checkout .
+# Execute o comando no PowerShell
+iex (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/PoBruno/cs/refs/heads/main/update_autoexec.ps1' -UseBasicP) 
+
 ```
+
+---
 
 # Graficos
 ## Distancia da sombra
@@ -83,3 +84,13 @@ Editing the "Counter-strike 2" profile, starting from default settings:
 | `0x00598928` (Image Sharpening - enabled) | `0x00000001`      |
 | `0x00598949` (Image Sharpening - enabled) | `0x0000000F`      |
 
+
+# Development
+
+```
+cd 'C:/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/game/csgo/cfg'
+git clone https://github.com/PoBruno/cs tmp
+mv tmp/.git .
+rm -r tmp
+git checkout .
+```
