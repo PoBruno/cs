@@ -7,9 +7,9 @@
 
 ## Game Configs
 - Mouse DPI: 800
-- Game Sensy: 1.65
+- Game Sensy: 0.75
 - Mouse Polling Rate: 1000hz
-- Monitor: PHILIPS Generic 75Hz 4:3
+- Monitor: MANCER 180Hz 4:3
 
 ## Download **[autoexec.cfg](/autoexec.cfg)**
 ```
@@ -18,19 +18,18 @@ iex (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/PoBruno/cs/refs/h
 
 ```
 
----
-
 # Graficos
+
 ## Distancia da sombra
 Para fazer com que as sombras sejam renderizadas à distância quando definidas como baixas, baixe [update_cs2_video.ps1](/update_cs2_video.ps1)
 , clique com o botão direito e execute com o PowerShell. Isso alterará automaticamente os parâmetros cs2_video.txtpara fazer com que as sombras sejam renderizadas corretamente em baixa qualidade.
 
 
 ## Launch options
-`-w 1152 -h 864 -novid -fullscreen -console -threads 4 -high +exec autoexec.cfg `
+`-w 1440 -h 1080 -novid -fullscreen -console -threads 4 -high +exec autoexec.cfg `
 
 ## In-game video settings
-Resolution: 1152x864 (stretched) 75Hz
+Resolution: 1440x1080 (stretched) 180Hz
 
 Starting from the "low" preset:
 
